@@ -17,7 +17,7 @@ Route::group(['middleware' => ['api']], function () {
 //    Route::post('login', '\App\Http\Controllers\AuthController@login');
 //    Route::post('/forgot-password', '\App\Http\Controllers\AuthController@sendResetLink');
 Route::get('/teste', function() {
-    return response()->json(['message' => 'API funcionando!']);
+    return response()->json(['message' => 'API funcionandoooooo!']);
 });
    
 });
